@@ -6,9 +6,8 @@
 # Install
 
 ```zsh
-# Install cog
-# Predict the blend shapes of an image.
-cog predict -i prompt="Hi"
+# Install cog and docker
+cog predict -i input_scene=@capturing_pose.blend
 ```
 
 ## Contributors ✨

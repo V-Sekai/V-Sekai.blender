@@ -4,8 +4,8 @@ build:
     - "libgl1-mesa-glx"
     - "libglib2.0-0"
     - "blender"
-  python_version: "3.7"
+  python_version: "3.11"
   python_packages:
-    - "bpy"
+    - "blendersynth"
 
 predict: "predict.py:Predictor"

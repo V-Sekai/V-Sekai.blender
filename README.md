@@ -1,26 +1,14 @@
-# Mediapipe Blendshape Labeler
+# Replicate template
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-**WORK IN PROGRESS**
-
-This is a Mediapipe workflow that performs blendshape labeling on images. The workflow utilizes the Mediapipe framework, which provides a flexible and efficient infrastructure for building multimodal applied machine learning models.
-
-[Now on replicate -- live.](https://replicate.com/fire/v-sekai.mediapipe-labeler)
-
-<img src="Screenshot 2023-09-03 065500.png" width="25%"> <img src="thirdparty/image.jpg" width="25%">
-
-[Perfect Sync - 52 Blendshapes JSON](output.json)
-
-**Model File**: [Link to Model Card Blendshape V2.pdf](https://storage.googleapis.com/mediapipe-assets/Model%20Card%20Blendshape%20V2.pdf)
 
 # Install
 
 ```zsh
 # Install cog
 # Predict the blend shapes of an image.
-cog predict -i image_path=@./thirdparty/image.jpg
+cog predict -i prompt="Hi"
 ```
 
 ## Contributors ✨
